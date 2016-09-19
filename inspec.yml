@@ -1,0 +1,8 @@
+name: my_ssh
+title: My Custom SSH Profile
+maintainer: Jeff Mery
+copyright: Chef.io
+copyright_email: jmery@chef.io
+license: All Rights Reserved
+summary: This is an example profile for SSH verification
+version: 0.1.0
