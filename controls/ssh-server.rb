@@ -46,6 +46,6 @@ control 'sshd-3' do
   ref 'Corporate Requirements', url: 'https://corpweb/audit/'
 
   describe sshd_config do
-    its('MaxAuthRetries') { should cmp ['4','3','2','1'] }
+    its('MaxAuthRetries') { should cmp /(4|3|2|1)/ }
   end
 end
